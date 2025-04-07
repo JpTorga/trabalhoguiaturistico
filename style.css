@@ -1,0 +1,206 @@
+/*MENU*/
+/* Reset de margens e padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo do corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Estilo da navbar */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000; /* Fica acima de outros elementos */
+}
+
+.navbar .logo a {
+    color: white;
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-decoration: none;
+    padding-left: 20px;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #3498db;
+}
+
+/* Estilo do conteúdo abaixo da navbar */
+.content {
+    margin-top: 80px; /* Garante que o conteúdo não fique atrás da navbar */
+    padding: 20px;
+    text-align: center;
+}
+
+.content h1 {
+    font-size: 2.5rem;
+    color: #333;
+}
+
+.content p {
+    font-size: 1.2rem;
+    color: #555;
+}
+/*Final MENU*/
+
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+}
+
+/* Estilo para o cabeçalho */
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #2c3e50;
+}
+
+header p {
+    font-size: 1.2rem;
+    color: #7f8c8d;
+}
+
+
+
+/* Estilos para as recomendações */
+.recommendations {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 280px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card h2 {
+    font-size: 1.5rem;
+    color: #2980b9;
+    margin: 15px 0;
+}
+
+.card p {
+    font-size: 1rem;
+    color: #7f8c8d;
+    padding: 0 15px;
+    margin-bottom: 20px;
+}
+
+.card button {
+    background-color: #2980b9;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+    margin: 20px;
+}
+
+.card button:hover {
+    background-color: #3498db;
+}
+
+/* Efeito de hover nas cartas */
+.card:hover {
+    transform: scale(1.05);
+}
+
+
+
+/* Define o layout do container */
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Estilo para a imagem */
+.image img {
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 30px;
+}
+
+/* Estilo para a descrição */
+.description {
+    max-width: 500px;
+    padding: 30px;
+}
+
+.description h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.description p {
+    font-size: 16px;
+    color: #555;
+}
+
+
